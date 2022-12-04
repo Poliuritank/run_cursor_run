@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(./fon.jpg) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Open Sans", sans-serif;
+	cursor: pointer;
+}
+.playground {
+	height: 100vh;
+	width: 100vw;
+}
+.playground__btn {
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	height: 100px;
+	font-size: 15px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	background-color: rgb(158, 213, 245);
+	position: absolute;
+	left: 47%;
+	top: 40%;
+	font-weight: bold;
+	box-shadow: rgb(48, 48, 48) 0 0 20px;
+	transition: ease-in 0.07s;
+}
+.img {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: 90%;
+}
